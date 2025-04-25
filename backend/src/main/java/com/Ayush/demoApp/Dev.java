@@ -1,15 +1,15 @@
 package com.Ayush.demoApp;
 
 import org.springframework.stereotype.Component;
-// import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Autowired;
 
 @Component
 public class Dev {
-    //@Autowired //field injection
+    @Autowired //field injection
     private Computer comp;
 
-    // public Dev(Laptop laptop) {
-    //     this.laptop = laptop;
+    // public Dev(Computer comp) {
+    //     this.comp= comp;
     // }
     public void build() {
         comp.compile();

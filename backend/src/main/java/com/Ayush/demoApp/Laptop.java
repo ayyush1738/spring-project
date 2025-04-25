@@ -7,6 +7,6 @@ import org.springframework.stereotype.Component;
 public class Laptop implements Computer{
 
     public void compile() {
-        System.out.println( "Compiling...");
+        System.out.println( "Compiling through Laptop...");
     }
 }
